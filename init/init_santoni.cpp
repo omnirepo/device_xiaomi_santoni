@@ -39,6 +39,9 @@
 #include "property_service.h"
 #include "util.h"
 
+namespace android {
+namespace init {
+
 char const *heapstartsize;
 char const *heapgrowthlimit;
 char const *heapsize;
@@ -134,3 +137,5 @@ void vendor_load_properties()
     android::init::property_set("ro.hwui.text_large_cache_width", "2048");
     android::init::property_set("ro.hwui.text_large_cache_height", large_cache_height);
 }
+}  // namespace init
+}  // namespace android
