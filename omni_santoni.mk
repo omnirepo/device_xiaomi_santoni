@@ -27,6 +27,10 @@ $(call inherit-product, vendor/omni/config/gsm.mk)
 
 PRODUCT_NAME := omni_santoni
 PRODUCT_DEVICE := santoni
+TARGET_VENDOR := Xiaomi
+PRODUCT_BRAND := Xiaomi
+PRODUCT_MODEL := Redmi 4X
+PRODUCT_MANUFACTURER := Xiaomi
 BOARD_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
