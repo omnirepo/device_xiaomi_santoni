@@ -139,7 +139,7 @@ PRODUCT_PACKAGES += \
     camera.msm8937 \
     libmm-qcamera \
     mm-qcamera-app \
-    Snap
+    SnapdragonCamera
 
 PRODUCT_PACKAGES += \
     camera.device@1.0-impl \
