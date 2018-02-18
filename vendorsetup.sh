@@ -21,5 +21,5 @@
 # function: add_lunch_combo generic-eng
 
 for var in eng user userdebug; do
-  add_lunch_combo colt_santoni-$var
+  add_lunch_combo omni_santoni-$var
 done
